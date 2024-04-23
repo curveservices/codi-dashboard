@@ -1,0 +1,19 @@
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --global: 1px 1px 20px 0px rgba(0, 0, 0, 0.5);
+  --box: 0px 40px 40px 20px rgba(0, 0, 0, 0.5);
+  --button-shadow: 1px 8px 20px 0px rgba(0, 0, 0, 0.5);
+}
+
+
+body {
+  margin: 0;
+}
+
+
+
+

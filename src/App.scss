@@ -1,0 +1,33 @@
+@import "animate.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+@import "loaders.css/src/animations/ball-spin-fade-loader.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.loader-active {
+  position: absolute;
+  display: block;
+  z-index: 99999;
+  top: 12%;
+  right: 0;
+  left: 0;
+  margin: auto;
+  bottom: 0;
+  width: 50px;
+  height: auto;
+  animation: fadeOut 1s;
+  animation-fill-mode: forwards;
+}
+
+.app {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  color: black;
+}

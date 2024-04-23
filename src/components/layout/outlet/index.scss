@@ -1,0 +1,9 @@
+.main {
+    background: var(--grey-background);
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    padding: 20px 10px;
+    height: 100%;
+}

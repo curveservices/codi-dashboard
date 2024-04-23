@@ -1,0 +1,29 @@
+.iconList {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+}
+
+.icons {
+    li {
+        list-style: none;
+        color: #000;
+    }
+    a {
+        color: #516DF6;
+        padding: 8px;
+        display: block;
+        font-size: 28px;
+        line-height: 20px;
+        box-shadow: var(--button-shadow);
+        border-radius: 50%;
+
+        &:hover { 
+            background: #d7d7d7;
+        }
+    }
+}
