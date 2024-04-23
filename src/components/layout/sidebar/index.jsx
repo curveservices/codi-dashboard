@@ -17,7 +17,7 @@ const Sidebar = () => {
         <>
             <div className="sidebar">
                 <div className="side-title">
-                    <Link to="/" className="dash-image" alt="Dashboard icon"><FontAwesomeIcon icon={faChartBar}/> Dashboard</Link>
+                    <Link to="/" className="dash-image" alt="Dashboard icon"><FontAwesomeIcon icon={faChartBar}/> Codi </Link>
                 </div>
                 <div className="mainlist">
                     <ul className="side-list">
